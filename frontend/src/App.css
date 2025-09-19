@@ -1,0 +1,28 @@
+.container{
+
+  background-color: antiquewhite;
+  border-radius: 20px;
+}
+.wrap-text {
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  display: block;
+  max-width: 100%;
+}
+
+.toast-message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1050; /* makes it appear above everything */
+  min-width: 200px;
+  text-align: center;
+  animation: fadeInOut 3s ease forwards;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-10px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
