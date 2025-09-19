@@ -17,6 +17,6 @@ It allows users to add, edit, delete, and view tasks with success/error messages
 ## 🛠 Tech Stack
 - **Frontend:** React, Bootstrap
 - **Backend:** Node.js, Express.js
-- **Database:** MongoDB (Atlas or Local)
+- **Database:** MongoDB
 
 ---
